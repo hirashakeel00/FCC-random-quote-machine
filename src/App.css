@@ -1,0 +1,36 @@
+app.css
+.background{
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box{
+  margin:0 auto;
+  width:500px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(175, 167, 167);
+}
+.quote-content{
+  height:220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin:10px;
+}
+#author{
+  text-align: right;
+}
+
+#new-quote{
+  border:2px solid;
+  background-color: grey;
+  font-size:1rem;
+  border-radius: 8px;
+}
